@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+{% block title %}Cadastro Concluído{% endblock %}
+{% block content %}
+<div class="text-center">
+  <h3>✅ Cadastro concluído com sucesso!</h3>
+  <p>Seu nome de usuário é:</p>
+  <h4 class="text-primary">{{ username }}</h4>
+  <p>Use esse nome de usuário ao fazer login.</p>
+  <a href="{{ url_for('auth.login') }}" class="btn btn-success mt-3">Ir para o Login</a>
+</div>
+{% endblock %}

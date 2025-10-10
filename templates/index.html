@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block title %}Dashboard{% endblock %}
+{% block content %}
+<h3>Dashboard - Logística Venttos</h3>
+<p>Bem-vindo, {{ user.full_name }}!</p>
+
+<ul>
+  <li><a href="{{ url_for('pcp.upload_excel') }}">📤 Enviar planilha PCP</a></li>
+  <li><a href="#">💰 Tela Faturamento</a></li>
+  <li><a href="#">🚚 Tela Logística</a></li>
+</ul>
+{% endblock %}

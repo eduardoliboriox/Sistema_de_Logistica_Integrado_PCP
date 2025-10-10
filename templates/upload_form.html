@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block title %}Importar Planilha{% endblock %}
+{% block content %}
+<h3>Upload de planilha PCP</h3>
+<form method="post" enctype="multipart/form-data">
+  <input class="form-control" type="file" name="file" accept=".xls,.xlsx" required>
+  <button class="btn btn-primary mt-2">Enviar</button>
+</form>
+{% endblock %}
