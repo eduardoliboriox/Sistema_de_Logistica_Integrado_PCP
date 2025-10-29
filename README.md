@@ -1,0 +1,1 @@
+Esse código implementa uma aplicação web Flask modular e profissional, voltada à gestão de status de itens (produção — PCP), com autenticação, importação automática de planilhas, e atualização de dados em tempo real. INCOMPLETO
