@@ -118,4 +118,4 @@ git remote add origin https do repositório
 =/ Conecta seu projeto local com o repositório
 
 git remote -v 
-=/ Verifica o endereço
+=/ Verifica o endereço do repositório atual
