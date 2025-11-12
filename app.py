@@ -111,4 +111,11 @@ if __name__ == '__main__':
     app.run(host="0.0.0.0", port=5000, debug=True)
 
 
-git init Cria (ou reinicializa) um repositório GIT na pasta atual
+git init
+=/ Cria (ou reinicializa) um repositório GIT na pasta atual
+
+git remote add origin https do repositório
+=/ Conecta seu projeto local com o repositório
+
+git remote -v 
+=/ Verifica o endereço
